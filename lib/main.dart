@@ -1,10 +1,15 @@
-import 'jamerah.dart';
-import 'caji.dart';
+import 'Shoes.dart';
+import 'Cat.dart';
+import 'Phone.dart';
 
 void main() {
-  var p1 = FlowerShop('FlowerShop', 'Seaside');
-  p1.shop();
+  
+  Shoes shoes = Shoes (brand: "Nike", model:  "Air Max 90");
+  shoes.showInfo();
 
-  var p2 = Species('type', 'planet');
-  p2.kind();
+  Cat cat = Cat (breed: "Persian", name: "jamjam");
+  cat.showInfo();
+
+  Phone phone = Phone (brand:"vivo", model:"vivoy11");
+  phone.showInfo;
 }
